@@ -27,25 +27,25 @@ Mega Man X Legacy Collection 2 (Nintendo Switch, 01005250086C4000) 의 **록맨 
 | 업데이트 | **v1.0.1 (v65536) 필수** |
 | 실행 파일 빌드 ID | 9B11769AB1D078B19E2BD2E498CD4BBE |
 
-업데이트가 없거나 다른 판이면 X5 의 실행 파일 패치(.ips)가 적용되지 않아 X5 한글이 깨집니다.
+업데이트가 없거나 다른 판이면 실행 파일 패치(.ips)가 적용되지 않아 X5 한글과 X7 선택지·옵션 표시가 깨집니다.
 
 ## 설치
 
 ### 스위치 (Atmosphere)
-`RXLC2_KR_v0.9.0_atmosphere.zip` 을 SD 카드 루트에 풉니다.
-- `atmosphere/contents/01005250086C4000/romfs/...` (X5~X8 대사·글꼴·그림·X6 오프닝 동영상)
-- `atmosphere/exefs_patches/RXLC2_KoreanPatch/9B11769AB1D078B19E2BD2E498CD4BBE.ips` (X5 대사 출력기)
+`RXLC2_KR_v0.9.1_atmosphere.zip` 을 SD 카드 루트에 풉니다.
+- `atmosphere/contents/01005250086C4000/romfs/...` (X5~X8 대사·글꼴·그림·X6·X7 오프닝 동영상)
+- `atmosphere/exefs_patches/RXLC2_KoreanPatch/9B11769AB1D078B19E2BD2E498CD4BBE.ips` (X5 대사 출력기, X7 선택지·옵션 표시)
 
 ### 에뮬레이터 (Eden / yuzu 계열, Ryujinx)
-`RXLC2_KR_v0.9.0_emulator.zip` 을 풀면 나오는 `KoreanPatch` 폴더를 게임의 모드 폴더에 넣습니다.
+`RXLC2_KR_v0.9.1_emulator.zip` 을 풀면 나오는 `KoreanPatch` 폴더를 게임의 모드 폴더에 넣습니다.
 - Eden / yuzu 계열: `load/01005250086C4000/KoreanPatch/{romfs,exefs}`
 - Ryujinx: `mods/contents/01005250086C4000/KoreanPatch/{romfs,exefs}`
 
 ## 한글화 범위
 - **X5**: 대사(엑스·제로·데모·결과·스테이지 선택), 타이틀 메뉴, 무기 선택 화면, 옵션·세이브 화면 글자, 경고 화면, 스태프 롤 등 그림 글자
 - **X6**: 대사(데모·스테이지 통신·결과·스테이지 선택), 타이틀 메뉴, 무기 메뉴, 스테이지 선택·파츠 화면 등 그림 글자, 오프닝 동영상 한글 자막
-- **X7**: 대사·데모 자막, 메뉴, 스테이지 선택·결과 화면, 보스 등장 자막 등
-- **X8**: 대사(MCB 메시지 전체), 타이틀·스테이지 선택·결과·조종석 화면 그림 글자, 일본판 타이틀 로고
+- **X7**: 대사·데모 자막, 메뉴, 스테이지 선택·레스큐 파일·결과 화면, 보스 등장 자막, 옵션 값·저장 「예/아니오」, 오프닝 동영상 한국어 자막
+- **X8**: 대사(MCB 메시지 전체), 타이틀·스테이지 선택·결과·조종석·옵션 화면 그림 글자, 일본판 타이틀 로고
 - **컬렉션 메뉴**: 메인 메뉴·옵션·뮤지엄·설명서·갤러리 설명·헌터 메달·X 챌린지. 스태프 롤의 영어 직함과 영문 곡명은 원래대로입니다.
 
 ## 알려진 점
@@ -54,5 +54,5 @@ Mega Man X Legacy Collection 2 (Nintendo Switch, 01005250086C4000) 의 **록맨 
 
 ## 내려받기
 
-[Releases](https://github.com/Einbroch/Rockman-X-Legacy-Collection2/releases) 에서 `RXLC2_KR_v0.9.0_atmosphere.zip`(스위치) 또는 `RXLC2_KR_v0.9.0_emulator.zip`(에뮬레이터)을 받으세요.
+[Releases](https://github.com/Einbroch/Rockman-X-Legacy-Collection2/releases) 에서 `RXLC2_KR_v0.9.1_atmosphere.zip`(스위치) 또는 `RXLC2_KR_v0.9.1_emulator.zip`(에뮬레이터)을 받으세요.
 게임 파일(NSP)은 포함하지 않습니다. 본인이 가진 정품 게임에 적용하세요.
